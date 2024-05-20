@@ -5,13 +5,13 @@ function setup() {
   
   function draw() 
   {
-    stroke("green");
+    stroke("black");
     fill("red");
     
     
     if (mouseIsPressed) 
     {
-      circle(mouseX, mouseY, 20, 35);
+      rect(mouseX, mouseY, 20, 35);
     }
   }
   
